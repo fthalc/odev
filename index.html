@@ -1,0 +1,217 @@
+<html lang="tr">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" /> 
+    <link rel="stylesheet" href="https://formden.com/static/cdn/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <style>.bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form{font-family: Arial, Helvetica, sans-serif; color: black}.bootstrap-iso form button, .bootstrap-iso form button:hover{color: white !important;} .asteriskField{color: red;}</style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Anasayfa</title>
+</head>
+<body class="body">
+<div class="bootstrap-iso">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-md-6 col-sm-6 col-xs-12"> 
+
+    <form  method="post" target="_blank">
+     <div class="form-group ">
+      <label class="control-label requiredField" for="name">
+       Adınız Soyadınız
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <div class="input-group">
+       <div class="input-group-addon">
+        <i class="fa fa-user">
+        </i>
+       </div>
+       <input class="form-control" id="name" name="name" placeholder="Ad Soyad" type="text" maxlength="40"/>
+      </div>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="email">
+       Email
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <div class="input-group">
+       <div class="input-group-addon">
+        <i class="fa fa-envelope-square">
+        </i>
+       </div>
+       <input class="form-control" id="email" name="email" placeholder="Email Adresiniz" type="text"/>
+      </div>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="subject">
+       Yaşınız
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <input class="form-control" id="age" name="age" placeholder="Yaşınız" type="number" minlength="18" maxlength="100"/>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="birthdaytime">
+       Doğum Tarihiniz
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <div class="input-group">
+    
+       <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="datetime-local"/>
+      </div>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="select">
+       Doğum Yeriniz
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <select class="select form-control" id="select" name="select">
+       <option value="Malatya">
+        Malatya
+       </option>
+       <option value="Elazığ">
+        Elazığ
+       </option>
+       <option value="Ankara">
+        Ankara
+       </option>
+       <option value="Antalya">
+        Antalya
+       </option>
+       <option value="İzmir">
+        İzmir
+       </option>
+      </select>
+     </div>
+     <div class="form-group" id="div_radio">
+      <label class="control-label requiredField" for="radio">
+       Select a Choice
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <div class="">
+       <label class="radio-inline">
+        <input name="radio" type="radio" value="Kadın"/>
+        Kadın
+       </label>
+       <label class="radio-inline">
+        <input name="radio" type="radio" value="Erkek"/>
+        Erkek
+       </label>
+      </div>
+     </div>
+     <div class="form-group" id="div_checkbox">
+      <label class="control-label requiredField" for="checkbox">
+       Bildiğiniz Diller
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <div class=" ">
+       <label class="checkbox-inline">
+        <input name="checkbox" type="checkbox" value="İngilizce"/>
+        İngilizce
+       </label>
+       <label class="checkbox-inline">
+        <input name="checkbox" type="checkbox" value="Almanca"/>
+        Almanca
+       </label>
+       <label class="checkbox-inline">
+        <input name="checkbox" type="checkbox" value="Fransızca"/>
+        Fransızca
+       </label>
+       <label class="checkbox-inline">
+        <input name="checkbox" type="checkbox" value="İtalyanca"/>
+        İtalyanca
+       </label>
+      </div>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="tel">
+       Telefon
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <div class="input-group">
+       <div class="input-group-addon">
+        <i class="fa fa-phone-square">
+        </i>
+       </div>
+       <input class="form-control" id="tel" name="tel" placeholder="0xxx xxx xx xx" type="tel" maxlength="11"/>
+      </div>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="message">
+       &Ouml;zge&ccedil;miş
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <textarea class="form-control" cols="40" id="message" name="message" placeholder="&Ouml;zge&ccedil;miş" rows="10"></textarea>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="subject1">
+       Şifre
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <div class="input-group">
+       <div class="input-group-addon">
+        <i class="fa fa-key">
+        </i>
+       </div>
+       <input class="form-control" id="password" name="password" placeholder="Şifre" type="password"/>
+      </div>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="subject2">
+       Şifre Tekrarı
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <div class="input-group">
+       <div class="input-group-addon">
+        <i class="fa fa-key">
+        </i>
+       </div>
+       <input class="form-control" id="password2" name="password2" placeholder="Şifreyi Tekrarla" type="password"/>
+      </div>
+     </div>
+     <div class="form-group ">
+      <label class="control-label " for="subject3">
+        Favori Renginiz
+      </label>
+      <input type="color" />
+     </div>
+     <div class="form-group">
+      <div>
+       <button class="btn btn-success " name="submit" type="submit">
+        Kaydet
+       </button>
+       <button class="btn btn-danger " name="reset" type="reset">
+        Temizle
+       </button>
+      </div>
+     </div>
+    </form>
+   </div>
+  </div>
+ </div>
+</div>
+
+</body>
+</html>
